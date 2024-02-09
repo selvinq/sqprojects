@@ -286,7 +286,7 @@ CREATE TABLE IF NOT EXISTS music.composer (
 	country			varchar(80) NOT NULL
 );
 
--- Inster data into the composer table.
+-- Insert data into the composer table.
 
 INSERT INTO music.composer (composer_name, city, state, country)
 VALUES 	('Sounwave', 'Compton', 'CA', 'United States'),
